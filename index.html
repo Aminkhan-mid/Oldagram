@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oldagram</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Warping everything inside a container to align it to the middle -->
+<div class="container">
+    
+    <!-- Header tag where logo and users profile picture goes -->
+    <header>
+        <img id="logo" src="./images/logo.png" alt="logo of the app.">
+        <img id="logoProfile" src="./images/user-avatar.png" alt="profile picture of the user.">
+    </header>
+    
+    <!-- main content -->
+    <main>
+
+        <!-- content 1 or post 1 wrapped inside a section -->
+        <section class="post-One">
+            <!-- post heading -->
+            <div class="post-header">
+                <img class="pfp" src="./images/post-vangogh.jpg" alt="self-potrait of Vincent van Gogh with beard.">
+                <div>
+                    <h1 class="userName"><a target="_blank" href="https://www.vangoghmuseum.nl/en/art-and-stories/art/vincent-van-gogh">Vincent van Gogh</a></h1>
+                    <p class="userLocation"><a target="_blank" href="https://www.google.com/search?q=Zundert%2C+Netherlands&sca_esv=59de4d94fc229621&rlz=1C5CHFA_enIN1126IN1126&ei=Up4XZ4F5oZed6w_3w5TAAQ&ved=0ahUKEwiB6pucgqKJAxWhS2cHHfchBRgQ4dUDCA8&uact=5&oq=Zundert%2C+Netherlands&gs_lp=Egxnd3Mtd2l6LXNlcnAiFFp1bmRlcnQsIE5ldGhlcmxhbmRzMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHSPI8UIUJWIUJcAF4A5ABAJgBAKABAKoBALgBA8gBAPgBAZgCA6ACEMICChAAGLADGNYEGEeYAwDiAwUSATEgQIgGAZAGCJIHATOgBwA&sclient=gws-wiz-serp">Zundert, Netherlands</a></p>
+                </div>
+            </div>
+            <!-- main post 1-->
+            <img class="post-img" src="./images/avatar-vangogh.jpg" alt="young picture of Vincent van Gogh wearing white and black suit.">
+            <!-- icons -->
+            <div class="interact">
+              <img id="like" class="icon" src="./images/icon-heart.png" alt="heart icon">
+              <img class="icon" src="./images/icon-comment.png" alt="comment icon">
+              <img class="icon" src="./images/icon-dm.png" alt="dm icon">
+            </div>
+            <!-- comments -->
+            <p class="likesNum" id="likeNum-el">21,492 Likes</p>
+            <p class="user-comment"><span class="user-id">vincey1853</span> just took a few mushrooms lol</p>
+        </section>
+
+
+
+        <!-- content 2 or post 2 wrapped inside a section -->
+        <section class="post-Two">
+             <!-- post heading -->
+            <div class="post-header">
+                <img class="pfp" src="./images/avatar-courbet.jpg" alt="black and white image of Gustave with thick beard.">
+                <div>
+                    <h1 class="userName"><a target="_blank" href="https://www.gustave-courbet.com/">Gustave Courbet</a></h1>
+                    <p class="userLocation"><a target="_blank" href="https://www.google.com/search?q=Ornans%2C+France&rlz=1C5CHFA_enIN1126IN1126&oq=Ornans%2C+France&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQLhiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHtIBBzczMGowajGoAgiwAgE&sourceid=chrome&ie=UTF-8">Ornans, France</a></p>
+                </div>
+            </div>
+            <!-- main post 2 -->
+            <img class="post-img" src="./images/post-courbet.jpg" alt="young picture of Gustave staring with wide eyes and pushing his long hair back with his two hands.">
+            <!-- icons -->
+            <div class="interact">
+              <img id="likeTwo" class="icon" src="./images/icon-heart.png" alt="heart icon">
+              <img class="icon" src="./images/icon-comment.png" alt="comment icon">
+              <img class="icon" src="./images/icon-dm.png" alt="dm icon">
+            </div>
+            <!-- comments -->
+            <p class="likesNum" id="likeNum-two">12,502 Likes</p>
+            <p class="user-comment"><span class="user-id">gus1819</span>i'm feelin a bit stressed tbh</p>
+        </section>
+
+        <!-- content 3 or post 3 wrapped inside a section -->
+        <section class="post-Three">
+            <!-- post heading -->
+            <div class="post-header">
+                <img class="pfp" src="./images/avatar-ducreux.jpg" alt="joseph possing the silience with finger over with lips.">
+                <div>
+                    <h1 class="userName"><a target="_blank" href="https://en.wikipedia.org/wiki/Joseph_Ducreux">Joseph Ducreux</a></h1>
+                    <p class="userLocation"><a target="_blank" href="https://www.google.com/search?q=Paris%2C+France&sca_esv=912127a677b1b8a9&rlz=1C5CHFA_enIN1126IN1126&ei=A5QXZ475E4Wo4-EPsYOuwQ4&ved=0ahUKEwjOhv-x-KGJAxUF1DgGHbGBK-gQ4dUDCA8&uact=5&oq=Paris%2C+France&gs_lp=Egxnd3Mtd2l6LXNlcnAiDVBhcmlzLCBGcmFuY2UyCBAuGIAEGLEDMgUQABiABDILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDILEC4YgAQYxwEYrwEyBRAAGIAEMhcQLhiABBixAxiXBRjcBBjeBBjgBNgBAkjmDVCJB1iJB3ABeACQAQCYAdsBoAHbAaoBAzItMbgBA8gBAPgBAfgBApgCAqAC9wGoAgrCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgITEAAYgAQYQxi0AhiKBRjqAtgBAZgDBroGBAgBGAe6BgYIAhABGBSSBwUxLjAuMaAHjgo&sclient=gws-wiz-serp">Paris, France</a></p>
+                </div>
+            </div>
+            <!-- main post 3 -->
+            <img class="post-img" src="./images/post-ducreux.jpg" alt="potrait of Joseph with his hands pointing towards us with his upper teeth visable.">
+            <!-- icons -->
+            <div class="interact">
+              <img id="likeThree" class="icon" src="./images/icon-heart.png" alt="heart icon">
+              <img class="icon" src="./images/icon-comment.png" alt="comment icon">
+              <img class="icon" src="./images/icon-dm.png" alt="dm icon">
+            </div>
+            <!-- comments -->
+            <p class="likesNum" id="likeNum-three">15,137 Likes</p>
+            <p class="user-comment"><span class="user-id">jd1735</span>gm friends! which coin are YOU stacking up today?? post below and WAGMI!</p>
+        </section>
+    </main>
+    
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
+

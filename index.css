@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: "Source Sans 3", sans-serif;
+    background-color: whitesmoke;
+}
+/* whole container */
+.container{
+    width: 375px;
+    margin: 10px auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px #123;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+/* Header */
+header{
+    height:67px;
+    display: flex;
+    border-bottom: 1px solid #c4c4c4;
+}
+#logo{
+    width: 127px;
+    height: auto;
+    margin:15px 183px 15px 15px;
+    cursor: pointer;
+}
+#logoProfile{
+    width: 34px;
+    height: 34px;
+    margin: 16px 16px 17px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* Repitive classes*/
+
+/* Post header */
+.post-header{
+    display: flex;
+    margin:0px;
+}
+.pfp{
+    width: 34px;
+    height: 34px;
+    margin: 10px 7px 11px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.userName{
+    width: 306px;
+    height: 16px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 11px;
+    padding-right: 17px;
+    padding-left: 7px;
+}
+.userLocation{
+    width: 307px;
+    height: 15px;
+    font-size: 12px;
+    margin: 0px 17px 13px 7px;
+}
+/* Post image */
+.post-img{
+    width: 375px;
+    height: 375px;
+    margin: 0px;
+}
+/* Icons */
+.interact{
+    display: flex;
+    margin: 21px 260px 11px 10px;
+}
+.icon{
+    width: 30px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+.likesNum{
+    width: 343px;
+    font-weight: bold;
+    margin:0px 0px 12px 13px;
+}
+/* comments and usernames */
+.user-comment{
+    width: 343;
+    height: 16px;
+    padding:0px 19px 16px 13px;
+    font-size: 13px;
+}
+.user-id{
+    font-weight: bold;
+}
+/* border after every post */
+.post-One, .post-Two, .post-Three{
+    border-bottom: 25px solid whitesmoke;
+    border-bottom-right-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+/* Hover and active effects for interaction */
+
+.user-comment:hover,
+.icon:hover{
+    box-shadow: 2px 2px 3px #c4c4c4;
+    background-color: #E4E4E4;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+a:hover{
+    background-color:#c4c4c4;
+    text-decoration: underline;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+.user-comment:active,
+.icon:active,
+a:active{
+    background-color: pink;
+    transition:all 4ms ease;
+}
